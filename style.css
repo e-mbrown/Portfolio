@@ -1,0 +1,42 @@
+.position-fixed{
+    width: 100vw;
+    margin-bottom: 10px;
+}
+.navbar{
+    font-family: 'Lato', sans-serif;
+}
+#navI{
+    margin-left: auto;
+}
+#brand{
+    font-family: 'Montserrat Alternates', sans-serif;
+}
+.contain{
+    margin-top: 2em;
+}
+.skills{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+svg{
+    height:200px;
+    margin: 0;
+}
+.center{
+    text-align: center;
+}
+.projects{
+    display:grid;
+    grid-template-columns: [a] 2fr[b] 1fr [c];
+}
+.grid{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+a > img {
+    height: 100px;
+    width: 200px;
+    margin: 10px;
+}

@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/devicons/devicon@master/devicon.min.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Lato&family=Montserrat+Alternates:ital,wght@1,600&display=swap" rel="stylesheet">
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+    
+    <script src="components.js" defer></script>
+    <script src="object.js" defer></script>
+    <script src="app.js"></script>
+  </head>
+
+  <body>
+      <b-header></b-header>
+      <div class="contain">
+        <banner src="" alt="" desc=""></banner>
+        <div class="is-divider" data-content="OR"></div>
+        <h3>About Me</h3>
+        <p>Ebony is a comic creator and illustrator who recently started their journey to become a full stack web developer. She went to the School of Visual Arts for Cartooning and graduated from the General Assembly SEI bootcamp.<br><br> Her journey started with an interest in creating games in Unity but branched out as time passed. She's looking into innovating my own web comics by adding interactivity using Javascript and other languages. <br><br> She is available for backend and full stack positions</p>
+        <h3 class="center">Skills</h3>
+        <div class="skills">
+          
+          <c-icon name="html"></c-icon>
+          <c-icon name="css"></c-icon>
+          <c-icon name="javascript"></c-icon>
+          <c-icon name="jquery"></c-icon>
+          <c-icon name="node"></c-icon>
+          <c-icon name="mongoDB"></c-icon>
+          <c-icon name="vue"></c-icon>
+          <c-icon name="ruby"></c-icon>
+          <c-icon name="rails"></c-icon>
+          <c-icon name="psql"></c-icon>
+          <c-icon name="python"></c-icon>
+          <c-icon name="django"></c-icon>
+        </div>
+      </div>
+      <h2 class="center">Projects</h2>
+      <div class="projects" id="projects">
+        <div class="grid">
+          
+        </div>
+        <div class="describe">
+          <p id="import"> Click projects for some information!</p>
+          <div class="description"></div>
+            <div id='p-icons'>
+            </div>
+        </div>
+      </div>
+      <div class="contact" id="contact">
+       
+        <h2>I'd Love to hear from you!</h2> 
+        
+        <div class="lines"></div>    
+        <p>Name</p>
+        <input type="text" placeholder="Full name preferred"  class="name" required>
+        <p>Email</p>
+        <input type="text" placeholder="Email" class="email" required>
+        <p>Phone</p>
+        <input type="text" placeholder="Not required" class="phone">
+        <p>Message</p>
+        <textarea name="comment" class="message" placeholder="Message here" required></textarea>
+        <button class="submit">Send</button>
+    </div>
+    <footer>
+       <div class="one">
+            <h3>Other ways to get in touch!</h3>
+            <a href="https://www.linkedin.com/in/ebony-brown-884b331ab/">
+                <i class="fa fa-linkedin-square" aria-hidden="true"></i>
+            </a>
+        
+            <a href="https://github.com/e-mbrown">
+                <i class="fa fa-github-alt" aria-hidden="true"></i>
+            </a>
+       </div>
+       <div class="two">
+            <h3> Interested in seeing my art</h3> 
+            <a href="https://www.instagram.com/bmearts/?hl=en">
+                <i class="fa fa-instagram" aria-hidden="true"></i>
+            </a>
+       </div>
+    </footer>
+  </body>
+</html>

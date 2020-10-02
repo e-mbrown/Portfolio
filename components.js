@@ -21,6 +21,9 @@ class Header extends HTMLElement {
               <li class="nav-item ml-auto">
                 <a class="nav-link" href="#">Contact</a>
               </li>
+              <li class="nav-item ml-auto">
+                <a class="nav-link" href="./Ebony_Brown_Resume.pdf">Resume</a>
+              </li>
             </ul>
           </div>
         </nav>`

@@ -4,6 +4,7 @@
 }
 .navbar{
     font-family: 'Lato', sans-serif;
+    background-color:#cc7546 ;
 }
 #navI{
     margin-left: auto;
@@ -11,7 +12,18 @@
 #brand{
     font-family: 'Montserrat Alternates', sans-serif;
 }
+.starter{
+    display: flex;
+    background-color: #E7814B;
+    height: 45vh;
+}
+.starter > div, .contain > div {
+    width: 70vw;
+    margin: auto;
+}
 .contain{
+    display: flex;
+    flex-direction: column;
     margin-top: 2em;
 }
 .skills{
@@ -25,6 +37,7 @@ svg{
 }
 .center{
     text-align: center;
+    margin-bottom: 10%;
 }
 .projects{
     display:grid;
@@ -39,4 +52,13 @@ a > img {
     height: 100px;
     width: 200px;
     margin: 10px;
+}
+footer{
+    display: flex;
+    background-color: #E7814B;
+    color: black;
+    font-size: 32px;
+}
+.fa {
+    color: white;
 }

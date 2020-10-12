@@ -40,8 +40,8 @@ class Card extends HTMLElement{
     const s_text=this.getAttribute("alt")
     this.innerHTML=`
     <div class="card">
-      <div class="topimg">
-        <img src=${source} alt=${s_text}>
+      <div class="img">
+        <img id='top-img' src=${source} alt=${s_text}>
       </div>
       <div class="card-content">
           <div class="content">

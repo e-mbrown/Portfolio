@@ -12,6 +12,13 @@
 #brand{
     font-family: 'Montserrat Alternates', sans-serif;
 }
+.card{
+    width: 40vw;
+    height: 50vh;
+}
+#top-img{
+    width: 60%;
+}
 .starter{
     display: flex;
     background-color: #E7814B;

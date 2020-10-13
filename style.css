@@ -28,12 +28,12 @@
     width: 70vw;
     margin: auto;
 }
-.contain{
+.contain, .contact{
     display: flex;
     flex-direction: column;
     margin-top: 2em;
 }
-.skills{
+.skills,{
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
@@ -63,7 +63,9 @@ a > img {
     margin: 10px;
 }
 footer{
-    display: flex;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    justify-items: center;
     background-color: #E7814B;
     color: black;
     font-size: 32px;

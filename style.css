@@ -4,7 +4,12 @@
 }
 .navbar{
     font-family: 'Lato', sans-serif;
+    font-weight: 600;
     background-color:#cc7546 ;
+}
+.navbar-brand::before ,.navbar-brand::after {
+content: "|";
+padding:0 5px;
 }
 #navI{
     margin-left: auto;
@@ -16,8 +21,11 @@
     width: 40vw;
     height: 50vh;
 }
-#top-img{
-    width: 60%;
+.top-img{
+    width: 300px;
+    height: 90%;
+    background-color: grey;
+    margin: auto;
 }
 .starter{
     display: flex;
@@ -28,19 +36,25 @@
     width: 70vw;
     margin: auto;
 }
+#banner{
+    display: flex;
+    flex-wrap: nowrap;
+    margin: 0 auto;
+
+}
 .contain, .contact{
     display: flex;
     flex-direction: column;
     margin-top: 2em;
 }
-.skills,{
+.skills {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
 }
 svg{
     height:100px;
-    margin: 28px 40px;
+    margin: 28px 30px;
 }
 .center{
     text-align: center;
@@ -50,7 +64,7 @@ svg{
     display:grid;
     width: 70vw;
     margin: auto;
-    grid-template-columns: [a] 2fr[b] 1fr [c];
+    grid-template-columns: [a] 3fr[b] 1fr [c];
 }
 .grid{
     display: flex;
@@ -61,6 +75,12 @@ a > img {
     height: 100px;
     width: 200px;
     margin: 10px;
+}
+.contact {
+    margin-bottom: 2em;
+}
+.submit {
+    margin-top: 2em;
 }
 footer{
     display: grid;

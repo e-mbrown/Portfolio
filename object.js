@@ -28,12 +28,12 @@ fetch(url)
             $div.append($('<h2>').text(project.title))
             $div.append($('<p>').text(project.description))
             if(project.live){
-                $div.append($('<a>').attr('href', project.url).text('Frontend Link '))
-                $div.append($('<a>').attr('href', project.url2).text('Backend link '))
-                $div.append($('<a>').attr('href', project.live).text('Live link '))
+                $div.append($('<a>').attr('href', project.url).text('Frontend Repo '))
+                $div.append($('<a>').attr('href', project.url2).text('Backend Repo '))
+                $div.append($('<a>').attr('href', project.live).text('Live Site '))
             }
             else {
-                $div.append($('<a>').attr('href', project.url).text('Live Link'))
+                $div.append($('<a>').attr('href', project.url).text('Live Site'))
             }
             return($div)
         }

@@ -5,7 +5,7 @@
 .navbar{
     font-family: 'Lato', sans-serif;
     font-weight: 600;
-    background-color:#cc7546 ;
+    background-color:#cc7546;
 }
 .navbar-brand::before ,.navbar-brand::after {
 content: "|";
@@ -38,8 +38,9 @@ padding:0 5px;
 }
 #banner{
     display: flex;
+    justify-content: center;
     flex-wrap: nowrap;
-    margin: 0 auto;
+    margin:auto;
 
 }
 .contain, .contact{
@@ -78,18 +79,34 @@ a > img {
 }
 .contact {
     margin-bottom: 2em;
+    margin-top: 3em;
 }
 .submit {
     margin-top: 2em;
 }
 footer{
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    justify-items: center;
-    background-color: #E7814B;
+    display: flex;
+    background-color:#cc7546;
     color: black;
-    font-size: 32px;
+}
+footer > div > h3 {
+    font-family: 'Lato', sans-serif;
+    font-size: 20px;
+    display: inline;
+    
+}
+.one, .two {
+    margin: 20px auto;
 }
 .fa {
     color: white;
+    margin: 1vw;
+}
+@media (min-width: 768px) {
+    .projects{
+        height: 70vh;
+    }
+    .grid {
+        overflow-y: scroll;
+    }
 }

@@ -70,6 +70,7 @@ svg{
 .grid{
     display: flex;
     flex-wrap: wrap;
+    height: 100vh;
     justify-content: space-evenly;
 }
 a > img {
@@ -102,7 +103,7 @@ footer > div > h3 {
     color: white;
     margin: 1vw;
 }
-@media and(min-width: 768px) {
+@media only screen and (max-width: 700px) {
     .projects{
         height: 70vh;
     }

@@ -102,7 +102,7 @@ footer > div > h3 {
     color: white;
     margin: 1vw;
 }
-@media (min-width: 768px) {
+@media and(min-width: 768px) {
     .projects{
         height: 70vh;
     }
